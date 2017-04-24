@@ -221,7 +221,7 @@ namespace ConfigService
             try
             {
                 var exists = await collection.FindAsync(toInsert);
-                if (exists != null)
+                if (exists.Any())
                 {
                     _logger.Log(LogLevel.Warning, 0, $"Attempted to backup a config which already exists {config.Name}: {config.Value}. Aborting",
                             null, (msg, exx) => msg);
@@ -253,7 +253,7 @@ namespace ConfigService
             try
             {
                 var exists = await collection.FindAsync(toDelete);
-                if (exists == null)
+                if (!exists.Any())
                 {
                     _logger.Log(LogLevel.Warning, 0, $"Attempted to remove a config from backup which does not exists {config.Name}: {config.Version}. Aborting",
                             null, (msg, exx) => msg);
