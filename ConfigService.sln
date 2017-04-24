@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "ConfigService", "src\ConfigService\ConfigService.sfproj", "{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreService", "src\CoreService\CoreService.csproj", "{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreService.Interfaces", "src\CoreService.Interfaces\CoreService.Interfaces.csproj", "{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreService.Client", "src\CoreService.Client\CoreService.Client.csproj", "{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B3556DE-5491-4D74-8700-48A592EF1683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{F4472887-B599-4CAC-9C74-06E0F7F6A0A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreService.Test", "tst\CoreService.Test\CoreService.Test.csproj", "{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreService.Client.Test", "tst\CoreService.Client.Test\CoreService.Client.Test.csproj", "{9175D426-7535-49F5-A207-EF9D99D9F840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "src\Common\Common.csproj", "{8C99D63D-BB2D-424E-965D-45072E24D4CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Debug|x64.ActiveCfg = Debug|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Debug|x64.Build.0 = Debug|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Debug|x64.Deploy.0 = Debug|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Release|Any CPU.ActiveCfg = Release|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Release|x64.ActiveCfg = Release|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Release|x64.Build.0 = Release|x64
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6}.Release|x64.Deploy.0 = Release|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Debug|x64.ActiveCfg = Debug|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Debug|x64.Build.0 = Debug|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Release|Any CPU.ActiveCfg = Release|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Release|x64.ActiveCfg = Release|x64
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC}.Release|x64.Build.0 = Release|x64
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Debug|x64.Build.0 = Debug|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Release|x64.ActiveCfg = Release|Any CPU
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA}.Release|x64.Build.0 = Release|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Debug|x64.Build.0 = Debug|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Release|x64.ActiveCfg = Release|Any CPU
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83}.Release|x64.Build.0 = Release|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Debug|x64.ActiveCfg = Debug|x64
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Debug|x64.Build.0 = Debug|x64
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Release|x64.ActiveCfg = Release|Any CPU
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759}.Release|x64.Build.0 = Release|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Debug|x64.ActiveCfg = Debug|x64
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Debug|x64.Build.0 = Debug|x64
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Release|x64.ActiveCfg = Release|Any CPU
+		{9175D426-7535-49F5-A207-EF9D99D9F840}.Release|x64.Build.0 = Release|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEA15CE2-FDE5-4EAC-BBC6-3F752463F1B6} = {1B3556DE-5491-4D74-8700-48A592EF1683}
+		{1D916D7B-FA59-44A1-B4AC-1EBBBD2B85EC} = {1B3556DE-5491-4D74-8700-48A592EF1683}
+		{229962A6-A1DE-4E02-BCDE-D06FAD737DAA} = {1B3556DE-5491-4D74-8700-48A592EF1683}
+		{F5D9F077-D9E5-4142-B5BD-C2DDF49BAF83} = {1B3556DE-5491-4D74-8700-48A592EF1683}
+		{F03313AC-BAEB-4F8E-B2F2-B9C61E8B8759} = {F4472887-B599-4CAC-9C74-06E0F7F6A0A7}
+		{9175D426-7535-49F5-A207-EF9D99D9F840} = {F4472887-B599-4CAC-9C74-06E0F7F6A0A7}
+		{8C99D63D-BB2D-424E-965D-45072E24D4CA} = {1B3556DE-5491-4D74-8700-48A592EF1683}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://fielding.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ConfigService\\ConfigService.sfproj
+		SccProjectTopLevelParentUniqueName1 = ConfigService.sln
+		SccProjectName1 = ConfigService
+		SccLocalPath1 = src\\ConfigService
+		SccProjectUniqueName2 = CoreService\\CoreService.csproj
+		SccProjectTopLevelParentUniqueName2 = ConfigService.sln
+		SccProjectName2 = CoreService
+		SccLocalPath2 = src\\CoreService
+		SccProjectUniqueName3 = CoreService.Interfaces\\CoreService.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName3 = ConfigService.sln
+		SccProjectName3 = CoreService.Interfaces
+		SccLocalPath3 = src\\CoreService.Interfaces
+		SccProjectUniqueName4 = CoreService.Client\\CoreService.Client.csproj
+		SccProjectTopLevelParentUniqueName4 = ConfigService.sln
+		SccProjectName4 = CoreService.Client
+		SccLocalPath4 = scr\\CoreService.Client
+		SccProjectUniqueName5 = CoreService.Test\\CoreService.Test.csproj
+		SccProjectTopLevelParentUniqueName5 = ConfigService.sln
+		SccProjectName5 = CoreService.Test
+		SccLocalPath5 = tst\\CoreService.Test
+		SccProjectUniqueName6 = CoreService.Client.Test\\CoreService.Client.Test.csproj
+		SccProjectTopLevelParentUniqueName6 = ConfigService.sln
+		SccProjectName6 = CoreService.Client.Test
+		SccLocalPath6 = tst\\CoreService.Client.Test
+		SccProjectUniqueName7 = Common\\Common.csproj
+		SccProjectTopLevelParentUniqueName7 = ConfigService.sln
+		SccProjectName7 = Common
+		SccLocalPath7 = tst\\Common
+	EndGlobalSection
+EndGlobal
